@@ -4,23 +4,17 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Coffee = ({ isMobile }) => {
-  const computer = useGLTF('./cup_of_coffee/scene.gltf')
+  const computer = useGLTF('./coffee/scene.gltf')
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
-      <spotLight
-        position={[-20, 50, 10]}
-        angle={0.12}
-        penumbra={1}
-        intensity={1}
-        castShadow
-        shadow-mapSize={1024}
-      />
+      <hemisphereLight intensity={0.4} groundColor='black' />
+      
       <pointLight intensity={1}/>
       <primitive 
         object={computer.scene}
-        scale={isMobile ? 3 : 5}
-        position={isMobile ? [0, -0.18, 0] : [0, -0.28, 0]}
+        scale={isMobile ? 0.006 : 0.009}
+        position={isMobile ? [-0.0032, -0.037, -0.0068] : [-0.0048, -0.07, -0.0105]}
+        rotation={[ 0, 2, 0]}
       />
     </mesh>
   )
@@ -55,7 +49,7 @@ const CoffeeCanvas = () => {
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 3 }}
+      camera={{ position: [0, 0, -15], fov: 1 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>

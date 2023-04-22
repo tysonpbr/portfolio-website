@@ -1,0 +1,11 @@
+Model Information:
+* title:	Coffee
+* source:	https://sketchfab.com/3d-models/coffee-52a1742975724558a8465e6f0e17f966
+* author:	Kyyy_24 (https://sketchfab.com/luckyardrianto27)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Coffee" (https://sketchfab.com/3d-models/coffee-52a1742975724558a8465e6f0e17f966) by Kyyy_24 (https://sketchfab.com/luckyardrianto27) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

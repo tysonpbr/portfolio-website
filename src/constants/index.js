@@ -3,26 +3,29 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  logo_agile,
+  logo_bitbucket,
+  logo_c,
+  logo_cplus,
+  logo_csharp,
+  logo_css,
+  logo_firebase,
+  logo_git,
+  logo_html,
+  logo_java,
+  logo_javascript,
+  logo_jira,
+  logo_mongodb,
+  logo_node,
+  logo_python,
+  logo_react,
+  logo_sourcetree,
+  logo_tailwind,
+  logo_testcafe,
+  logo_three,
+  logo_typescript,
+  logo_project,
+  logo_vidigami,
 } from "../assets";
 
 export const navLinks = [
@@ -50,129 +53,149 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "JavaScript",
+    icon: logo_javascript,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "HTML",
+    icon: logo_html,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "CSS",
+    icon: logo_css,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "TypeScript",
+    icon: logo_typescript,
   },
-];
-
-const technologies = [
+  
   {
-    name: "HTML 5",
-    icon: html,
+    title: "React JS",
+    icon: logo_react,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    title: "C",
+    icon: logo_c,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    title: "C++",
+    icon: logo_cplus,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    title: "C#",
+    icon: logo_csharp,
+  },
+  
+  {
+    title: "MongoDB",
+    icon: logo_mongodb,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    title: "Node JS",
+    icon: logo_node,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    title: "Test Cafe",
+    icon: logo_testcafe,
+  },
+  
+  {
+    title: "Python",
+    icon: logo_python,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    title: "Java",
+    icon: logo_java,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    title: "Sourcetree",
+    icon: logo_sourcetree,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    title: "Git",
+    icon: logo_git,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    title: "Bitbucket",
+    icon: logo_bitbucket,
   },
   {
-    name: "git",
-    icon: git,
+    title: "Agile Methodology",
+    icon: logo_agile,
   },
   {
-    name: "figma",
-    icon: figma,
+    title: "Jira",
+    icon: logo_jira,
   },
   {
-    name: "docker",
-    icon: docker,
+    title: "Firebase",
+    icon: logo_firebase,
+  },
+  {
+    title: "Tailwind CSS",
+    icon: logo_tailwind,
+  },
+  {
+    title: "Three JS",
+    icon: logo_three,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Littlestones Creations Website",
+    company_name: "Personal Project",
+    icon: logo_project,
+    iconBg: "#D48133",
+    date: "January 2023 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created a MERN stack website to showcase the work of Littlestones Creations",
+      "Wrote JavaScript code with embedded HTML code in React to create website components and pages",
+      "Wrote back-end JavaScript code to allow web users to contact the owner of Littlestones Creations",
+      "Used Tailwind CSS to help give the website professional styling",
+      "Used Hostinger to host the website",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "AI Image Generator",
+    company_name: "Personal Project",
+    icon: logo_project,
+    iconBg: "#D48133",
+    date: "January 2023 - February 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created a MERN stack website to create and showcase AI generated images",
+      "Wrote JavaScript code to create a page for showcasing past images stored on MongoDB",
+      "Wrote JavaScript code to create a page for creating and saving new images",
+      "Communicated with OpenAI API to generate new images based of prompts entered on my website",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "QA Engineer",
+    company_name: "Vidigami",
+    icon: logo_vidigami,
+    iconBg: "#B7F1D9",
+    date: "May 2022 - December 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed then executed functionality, regression and smoke test cases for desktop and mobile ",
+      "Created automation tests using TestCafe software",
+      "Documented and tracked bugs, stories and chores in Jira ",
+      "Worked closely with the development team to complete development tasks",
+      "Performed data maintenance tasks for live users",
+      "Gained experience working with agile methodology ",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "JavaScript Multiplayer Game",
+    company_name: "Personal Project",
+    icon: logo_project,
+    iconBg: "#D48133",
+    date: "June 2022 - September 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created an online multiplayer game coded in HTML, CSS and JavaScript ",
+      "Used google Firebase to support online multiplayer connection",
+      "Created the game without any using pre-existing JavaScript game libraries",
+      "Developed my own functions for both character movement mechanics and walking animations",
+      "Designed all characters and map locations using Aseprite",
     ],
   },
 ];
@@ -204,70 +227,4 @@ const testimonials = [
   },
 ];
 
-const projects = [
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-];
-
-export { services, technologies, experiences, testimonials, projects };
+export { services, experiences, testimonials };

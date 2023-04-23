@@ -1,11 +1,12 @@
 import React from "react";
-import Tilt from "react-tilt";
 import { motion } from "framer-motion";
+import { Tilt } from "react-tilt";
 
 import { styles } from "../styles";
-import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+
+import { about_portrait } from "../assets";
 
 const About = () => {
   return (
@@ -15,21 +16,31 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>About.</h2>
       </motion.div>
 
-      <motion.p
+      <motion.div
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-white text-[17px] max-w-xl leading-[30px]'
+        className='mt-4'
       >
-        Coffee is one of the most widely consumed beverages in the world, with 
-        a rich and complex history dating back centuries. Originating in 
-        Ethiopia, coffee spread to the Arabian Peninsula and then to Europe, 
-        eventually becoming a global phenomenon. Today, coffee is available in 
-        countless varieties, from classic black coffee to lattes, cappuccinos, 
-        and more. Many people rely on coffee as a source of energy and 
-        motivation, while others simply enjoy its rich and unique flavor. 
-        Whatever your preference, there's no denying that coffee plays an 
-        important role in cultures around the world, and its popularity shows 
-        no signs of slowing down.
-      </motion.p>
+        <div className='flex flex-col lg:flex-row gap-12 lg:gap-24 items-center align-middle'>
+          <p className='text-white text-[17px] leading-[30px]'>
+          I'm a third-year Computer Engineering student at UBC, eager to broaden my knowledge 
+          and obtain technical work experience. My past co-op work and personal coding projects 
+          have provided me with extensive experience in software development and testing in 
+          various programming languages. In addition to my technical proficiency, I possess 
+          strong interpersonal skills, am an efficient communicator, and function well as a 
+          team player. These attributes enable me to work collaboratively with peers and 
+          clients. Coupled with my self-motivated, meticulous, and hardworking personality, 
+          I believe that I would make a valuable contribution to any development team.
+          </p>
+          <Tilt className='xs:w-[250px] w-full md:w-auto'>
+            <motion.div
+              variants={fadeIn("right", "spring", 0.08, 1)}
+              className='w-full shadow-card overflow-hidden lg:max-w-xl lg:w-auto lg:h-auto'
+            >
+              <img src={about_portrait} alt="about_portrait" className="w-auto h-auto bg-secondary p-[4px] rounded-[20px] lg:max-w-xl"/>
+            </motion.div>
+          </Tilt>
+        </div>
+      </motion.div>
     </>
   );
 };

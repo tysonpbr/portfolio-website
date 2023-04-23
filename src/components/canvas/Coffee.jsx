@@ -4,14 +4,14 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Coffee = ({ isMobile }) => {
-  const computer = useGLTF('./coffee/scene.gltf')
+  const coffee = useGLTF('./coffee/scene.gltf')
   return (
     <mesh>
       <hemisphereLight intensity={0.4} groundColor='black' />
       
       <pointLight intensity={1}/>
       <primitive 
-        object={computer.scene}
+        object={coffee.scene}
         scale={isMobile ? 0.006 : 0.009}
         position={isMobile ? [-0.0032, -0.037, -0.0068] : [-0.0048, -0.07, -0.0105]}
         rotation={[ 0, 2, 0]}

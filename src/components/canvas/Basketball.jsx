@@ -7,14 +7,14 @@ const Basketball = ({ isMobile }) => {
   const basketball = useGLTF('./basketball/scene.gltf')
   return (
     <mesh>
-      <hemisphereLight intensity={0.4} groundColor='black' />
+      <hemisphereLight intensity={1} groundColor='black' />
       
       <pointLight intensity={1}/>
       <primitive 
         object={basketball.scene}
         scale={isMobile ? 0.014 : 0.014}
         position={isMobile ? [-0.0032, -0.02, -0.0068] : [-0.0048, -0.02, -0.0105]}
-        rotation={[ 0, 2, 0]}
+        rotation={[ 0, 2.5, 0]}
       />
     </mesh>
   )

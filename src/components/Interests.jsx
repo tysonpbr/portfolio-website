@@ -31,9 +31,9 @@ const Interests = () => {
             onClick={() => setSelected("Basketball")}
           >
             <div 
-              className="bg-white rounded-[20px] py-0 w-full min-h-[90px] lg:min-h-[50px] flex justify-evenly items-center flex-col"
+              className={`${(selected == "Basketball") ? "bg-secondary" : "bg-white"} rounded-[20px] py-0 w-full min-h-[40px] lg:min-h-[50px] flex justify-evenly items-center flex-col`}
             >
-              <h3 className="text-primary text-[10px] lg:text-[14px] font-bold text-center" >Basketball</h3>
+              <h3 className="text-primary text-[8px] lg:text-[14px] font-bold text-center" >Basketball</h3>
             </div>
           </motion.div>
         </Tilt>
@@ -44,9 +44,9 @@ const Interests = () => {
             onClick={() => setSelected("Guitar")}
           >
             <div 
-              className="bg-white rounded-[20px] py-0 w-full min-h-[90px] lg:min-h-[50px] flex justify-evenly items-center flex-col"
+              className={`${(selected == "Guitar") ? "bg-secondary" : "bg-white"} rounded-[20px] py-0 w-full min-h-[40px] lg:min-h-[50px] flex justify-evenly items-center flex-col`}
             >
-              <h3 className="text-primary text-[10px] lg:text-[14px] font-bold text-center" >Guitar</h3>
+              <h3 className="text-primary text-[8px] lg:text-[14px] font-bold text-center" >Guitar</h3>
             </div>
           </motion.div>
         </Tilt>
@@ -54,12 +54,12 @@ const Interests = () => {
           <motion.div
             variants={fadeIn("right", "spring", 0, 0.7)}
             className='w-full bg-secondary p-[4px] rounded-[20px] shadow-card'
-            onClick={() => setSelected("Snowboarding")}
+            onClick={() => setSelected("Snowboard")}
           >
             <div 
-              className="bg-white rounded-[20px] py-0 w-full min-h-[90px] lg:min-h-[50px] flex justify-evenly items-center flex-col"
+              className={`${(selected == "Snowboard") ? "bg-secondary" : "bg-white"} rounded-[20px] py-0 w-full min-h-[40px] lg:min-h-[50px] flex justify-evenly items-center flex-col`}
             >
-              <h3 className="text-primary text-[10px] lg:text-[14px] font-bold text-center" >Snowboarding</h3>
+              <h3 className="text-primary text-[8px] lg:text-[14px] font-bold text-center" >Snowboarding</h3>
             </div>
           </motion.div>
         </Tilt>

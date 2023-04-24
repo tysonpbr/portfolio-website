@@ -7,14 +7,14 @@ const Guitar = ({ isMobile }) => {
   const guitar = useGLTF('./guitar/scene.gltf')
   return (
     <mesh>
-      <hemisphereLight intensity={0.4} groundColor='black' />
+      <hemisphereLight intensity={0.7} groundColor='black' />
       
       <pointLight intensity={1}/>
       <primitive 
         object={guitar.scene}
         scale={isMobile ? 0.1 : 0.115}
         position={isMobile ? [-0.0032, -0.037, -0.0068] : [-0.0048, -0.07, -0.0105]}
-        rotation={[ 0, 2, 0]}
+        rotation={[ 0, 2.9, 0]}
       />
     </mesh>
   )

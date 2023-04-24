@@ -7,14 +7,14 @@ const Snowboard = ({ isMobile }) => {
   const snowboard = useGLTF('./snowboard/scene.gltf')
   return (
     <mesh>
-      <hemisphereLight intensity={0.4} groundColor='black' />
+      <hemisphereLight intensity={1} groundColor='black' />
       
       <pointLight intensity={1}/>
       <primitive 
         object={snowboard.scene}
-        scale={isMobile ? 0.006 : 0.009}
-        position={isMobile ? [-0.0032, -0.037, -0.0068] : [-0.0048, -0.07, -0.0105]}
-        rotation={[ 0, 2, 0]}
+        scale={isMobile ? 0.17 : 0.17}
+        position={isMobile ? [-0.0032, 0.01, -0.0068] : [-0.0048, 0.01, -0.0105]}
+        rotation={[ 0, 6.5, 0]}
       />
     </mesh>
   )

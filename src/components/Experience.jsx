@@ -52,10 +52,14 @@ const ExperienceCard = ({ experience }) => (
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="hidden lg:flex flex-col">
         <p className={styles.sectionSubText}>Technical work and projects</p>
         <h2 className={styles.sectionHeadText}>Experience.</h2>
       </motion.div>
+      <div className="flex flex-col lg:hidden">
+        <p className={styles.sectionSubText}>Technical work and projects</p>
+        <h2 className={styles.sectionHeadText}>Experience.</h2>
+      </div>
 
       <div className='mt-8 flex flex-col'>
         <VerticalTimeline>

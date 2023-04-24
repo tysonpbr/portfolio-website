@@ -196,4 +196,16 @@ const experiences = [
   },
 ];
 
-export { services, experiences };
+const interests = [
+  {
+    title: "Basketball",
+  },
+  {
+    title: "Guitar",
+  },
+  {
+    title: "Snowboarding",
+  },
+];
+
+export { services, experiences, interests };

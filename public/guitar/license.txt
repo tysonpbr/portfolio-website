@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fender Telecaster & Vox Amp.
+* source:	https://sketchfab.com/3d-models/fender-telecaster-vox-amp-1ad1165958e44dcb8b404829f6269fd7
+* author:	Animateria (https://sketchfab.com/Animateria)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fender Telecaster & Vox Amp." (https://sketchfab.com/3d-models/fender-telecaster-vox-amp-1ad1165958e44dcb8b404829f6269fd7) by Animateria (https://sketchfab.com/Animateria) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

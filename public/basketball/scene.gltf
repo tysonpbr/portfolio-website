@@ -1,0 +1,593 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 14756,
+      "max": [
+        0.7832326889038086,
+        2.379624366760254,
+        1.461256742477417
+      ],
+      "min": [
+        -0.7832326889038086,
+        0.002045750617980957,
+        -1.5307682752609253
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 177072,
+      "componentType": 5126,
+      "count": 14756,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 14756,
+      "max": [
+        0.9906073808670044,
+        0.9854746460914612
+      ],
+      "min": [
+        0.009392619132995605,
+        0.007552295923233032
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 66264,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 354144,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        6.737863540649414,
+        0.009451252408325672,
+        5.6985602378845215
+      ],
+      "min": [
+        -6.737863540649414,
+        0.009451252408325672,
+        -7.777146816253662
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 354192,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 118048,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0.990234375,
+        0.9902342557907104
+      ],
+      "min": [
+        0.009765625,
+        0.009765625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 265056,
+      "componentType": 5125,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 354240,
+      "componentType": 5126,
+      "count": 5380,
+      "max": [
+        2.9805750846862793,
+        9.860140800476074,
+        2.0182313919067383
+      ],
+      "min": [
+        -3.762712240219116,
+        0.000844120979309082,
+        -2.0182313919067383
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 418800,
+      "componentType": 5126,
+      "count": 5380,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 118080,
+      "componentType": 5126,
+      "count": 5380,
+      "max": [
+        0.9890106916427612,
+        0.9823242425918579
+      ],
+      "min": [
+        0.004219412803649902,
+        0.001903817057609558
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 265080,
+      "componentType": 5125,
+      "count": 14625,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 483360,
+      "componentType": 5126,
+      "count": 2286,
+      "max": [
+        2.3397789001464844,
+        7.122114181518555,
+        4.717668056488037
+      ],
+      "min": [
+        -2.3397786617279053,
+        -0.00041225552558898926,
+        -0.17924588918685913
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 510792,
+      "componentType": 5126,
+      "count": 2286,
+      "max": [
+        1.0,
+        1.0,
+        0.9998559355735779
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 161120,
+      "componentType": 5126,
+      "count": 2286,
+      "max": [
+        0.9941339492797852,
+        0.9888200759887695
+      ],
+      "min": [
+        0.010070562362670898,
+        0.0160638689994812
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 323580,
+      "componentType": 5125,
+      "count": 7458,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Santiago Andrés Ruiz (https://sketchfab.com/Santiago2314)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/basketball-court-8d0c85a5356c432d884e4df5dbbe55b5",
+      "title": "Basketball Court"
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 353412,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 179408,
+      "byteOffset": 353412,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 538224,
+      "byteOffset": 532820,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1071044,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/MaterialCarrito_baseColor.png"
+    },
+    {
+      "uri": "textures/MaterialCancha_baseColor.png"
+    },
+    {
+      "uri": "textures/MaterialAro1_baseColor.png"
+    },
+    {
+      "uri": "textures/MaterialSilla_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "MaterialCarrito",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9314080465011644
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "MaterialCancha",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9207483816249483
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "MaterialAro1",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "MaterialSilla",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Carrito2_MaterialCarrito_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cancha_MaterialCancha_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Aro_MaterialAro1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Silla_MaterialSilla_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Escena.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        9
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.8600435150607962,
+        0.0,
+        0.5102206897038476,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.5102206897038476,
+        0.0,
+        0.8600435150607962,
+        0.0,
+        -3.814969539642334,
+        0.06860340386629105,
+        1.8682602643966675,
+        1.0
+      ],
+      "name": "Carrito2"
+    },
+    {
+      "mesh": 0,
+      "name": "Carrito2_MaterialCarrito_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1772286891937256,
+        0.0,
+        -0.4012371003627777,
+        0.07503273338079453,
+        1.9981976747512817,
+        1.0
+      ],
+      "name": "Cancha"
+    },
+    {
+      "mesh": 1,
+      "name": "Cancha_MaterialCancha_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        2.220446049250313e-16,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2.220446049250313e-16,
+        0.0,
+        -0.3910685181617737,
+        0.0948319211602211,
+        -3.8922665119171143,
+        1.0
+      ],
+      "name": "Aro"
+    },
+    {
+      "mesh": 2,
+      "name": "Aro_MaterialAro1_0"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        0.17030664464754808,
+        0.0,
+        0.18095330840977214,
+        0.0,
+        0.0,
+        0.24849236011505127,
+        0.0,
+        0.0,
+        -0.18095330840977214,
+        0.0,
+        0.17030664464754808,
+        0.0,
+        3.6050572395324707,
+        0.08648362010717392,
+        0.47569739818573,
+        1.0
+      ],
+      "name": "Silla"
+    },
+    {
+      "mesh": 3,
+      "name": "Silla_MaterialSilla_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}

@@ -11,10 +11,14 @@ import { about_portrait } from "../assets";
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="hidden lg:flex flex-col">
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>About.</h2>
       </motion.div>
+      <div className="flex flex-col lg:hidden">
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>About.</h2>
+      </div>
 
       <motion.div
         variants={fadeIn("", "", 0.1, 1)}

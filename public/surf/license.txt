@@ -1,0 +1,11 @@
+Model Information:
+* title:	Simple Surf Board
+* source:	https://sketchfab.com/3d-models/simple-surf-board-96cfd8998bdc44a2817e73e287d0133e
+* author:	Fernando (https://sketchfab.com/AlcGames)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Simple Surf Board" (https://sketchfab.com/3d-models/simple-surf-board-96cfd8998bdc44a2817e73e287d0133e) by Fernando (https://sketchfab.com/AlcGames) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

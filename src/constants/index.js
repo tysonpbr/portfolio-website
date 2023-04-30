@@ -30,12 +30,12 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "skills",
-    title: "Skills",
-  },
-  {
     id: "experience",
     title: "Experience",
+  },
+  {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "interests",
@@ -47,7 +47,7 @@ export const navLinks = [
   },
 ];
 
-const services = [
+const skills = [
   {
     title: "JavaScript",
     icon: logo_javascript,
@@ -116,7 +116,7 @@ const services = [
     icon: logo_bitbucket,
   },
   {
-    title: "Agile Methodology",
+    title: "Agile",
     icon: logo_agile,
   },
   {
@@ -151,6 +151,8 @@ const experiences = [
       "Used Tailwind CSS to help give the website professional styling",
       "Used Hostinger to host the website",
     ],
+    link: "https://littlestonescreations.com/",
+    linkPreview: "littlestonescreations.com",
   },
   {
     title: "AI Image Generator",
@@ -164,6 +166,8 @@ const experiences = [
       "Wrote JavaScript code to create a page for creating and saving new images",
       "Communicated with OpenAI API to generate new images based of prompts entered on my website",
     ],
+    link: "https://taiig.online/",
+    linkPreview: "taiig.com",
   },
   {
     title: "QA Engineer",
@@ -179,6 +183,8 @@ const experiences = [
       "Performed data maintenance tasks for live users",
       "Gained experience working with agile methodology ",
     ],
+    link: "https://vidigami.com/",
+    linkPreview: "vidigami.com",
   },
   {
     title: "JavaScript Multiplayer Game",
@@ -193,19 +199,8 @@ const experiences = [
       "Developed my own functions for both character movement mechanics and walking animations",
       "Designed all characters and map locations using Aseprite",
     ],
+    link: "",
   },
 ];
 
-const interests = [
-  {
-    title: "Basketball",
-  },
-  {
-    title: "Guitar",
-  },
-  {
-    title: "Snowboarding",
-  },
-];
-
-export { services, experiences, interests };
+export { skills, experiences };

@@ -46,6 +46,12 @@ const ExperienceCard = ({ experience }) => (
       <p className="text-primary text-[16px] font-semibold" style={{ margin: 0 }}>
         {experience.date}
       </p>
+      
+      <div className={`${experience.link=="" ? "hidden" : "flex"}`}>
+        <a href={experience.link} className="underline lg:no-underline lg:hover:underline text-primary text-[12px] lg:text-[16px] font-semibold pt-2" style={{ margin: 0 }}>
+          {experience.linkPreview}
+        </a>
+      </div>
   </VerticalTimelineElement>
 )
 

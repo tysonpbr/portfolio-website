@@ -54,6 +54,7 @@ const CoffeeCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          autoRotate
           enableZoom={false}
           maxPolarAngle={7*Math.PI / 20}
           minPolarAngle={7*Math.PI / 20}

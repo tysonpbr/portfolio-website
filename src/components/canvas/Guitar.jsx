@@ -7,13 +7,20 @@ const Guitar = ({ isMobile }) => {
   const guitar = useGLTF('./guitar/scene.gltf')
   return (
     <mesh>
-      <hemisphereLight intensity={0.7} groundColor='black' />
-      
-      <pointLight intensity={1}/>
+      <hemisphereLight intensity={1} groundColor='black' />
+      <spotLight
+        position={[-20, 50, 10]}
+        angle={0.12}
+        penumbra={1}
+        intensity={10}
+        castShadow
+        shadow-mapSize={1024}
+      />
+      <pointLight intensity={10}/>
       <primitive 
         object={guitar.scene}
-        scale={isMobile ? 0.1 : 0.115}
-        position={isMobile ? [-0.0032, -0.037, -0.0068] : [-0.0048, -0.07, -0.0105]}
+        scale={isMobile ? 0.022 : 0.022}
+        position={isMobile ? [-0.0048, 0, -0.0105] : [-0.0048, 0, -0.0105]}
         rotation={[ 0, 2.9, 0]}
       />
     </mesh>
@@ -54,6 +61,8 @@ const GuitarCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          autoRotate
+          autoRotateSpeed={7}
           enableZoom={false}
           maxPolarAngle={7*Math.PI / 20}
           minPolarAngle={7*Math.PI / 20}

@@ -12,8 +12,8 @@ const Basketball = ({ isMobile }) => {
       <pointLight intensity={1}/>
       <primitive 
         object={basketball.scene}
-        scale={isMobile ? 0.014 : 0.014}
-        position={isMobile ? [-0.0032, -0.02, -0.0068] : [-0.0048, -0.02, -0.0105]}
+        scale={isMobile ? 0.012 : 0.0095}
+        position={isMobile ? [-0.0032, -0.02, -0.0068] : [-0.0048, 0, -0.0105]}
         rotation={[ 0, 2.5, 0]}
       />
     </mesh>
@@ -54,6 +54,8 @@ const BasketballCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          autoRotate
+          autoRotateSpeed={3}
           enableZoom={false}
           maxPolarAngle={7*Math.PI / 20}
           minPolarAngle={7*Math.PI / 20}

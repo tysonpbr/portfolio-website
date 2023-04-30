@@ -45,7 +45,7 @@ const Interests = () => {
             <div 
               className={`${(selected == "Surf") ? "bg-secondary" : "bg-white"} rounded-[10px] py-0 w-full min-h-[40px] lg:min-h-[50px] flex justify-evenly items-center flex-col`}
             >
-              <h3 className="text-primary text-[8px] lg:text-[14px] font-bold text-center" >Surfing</h3>
+              <h3 className="text-primary text-[8px] lg:text-[14px] font-bold text-center" >Wake Surfing</h3>
             </div>
           </motion.div>
         </Tilt>

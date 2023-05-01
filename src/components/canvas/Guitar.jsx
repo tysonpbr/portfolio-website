@@ -12,16 +12,16 @@ const Guitar = ({ isMobile }) => {
         position={[-20, 50, 10]}
         angle={0.12}
         penumbra={1}
-        intensity={10}
+        intensity={1}
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={10}/>
+      <pointLight intensity={1}/>
       <primitive 
         object={guitar.scene}
-        scale={isMobile ? 0.022 : 0.022}
-        position={isMobile ? [-0.0048, 0, -0.0105] : [-0.0048, 0, -0.0105]}
-        rotation={[ 0, 2.9, 0]}
+        scale={0.00022}
+        position={[-0.01, -0.1, 0]}
+        rotation={[ -0.3, 3.5, 0.1]}
       />
     </mesh>
   )

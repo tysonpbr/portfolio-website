@@ -12,8 +12,8 @@ const Surf = ({ isMobile }) => {
       <pointLight intensity={1}/>
       <primitive 
         object={surf.scene}
-        scale={isMobile ? 0.04 : 0.04}
-        position={isMobile ? [0.006, -0.035, -0.0105] : [0.006, -0.035, -0.0105]}
+        scale={0.04}
+        position={[0.006, -0.06, -0.0105]}
         rotation={[ 1.65, 6.9, 0.3]}
       />
     </mesh>
